@@ -15,7 +15,7 @@ functionToCall = [
    "InitMath",
    "QuitTheConsole",
    "ClearConsoleFcn",
-   "printUserDataForAdmin",
+   "printUserDataForAdminFunction",
    "deleteUserDataForAdmin",
    "SignOutUserToPush"
 ]

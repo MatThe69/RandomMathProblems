@@ -132,7 +132,7 @@ def load_datas():
         return
         
 def printUserDataForAdmin():
-    if currentUser == ("NIGHT_C0DE", "MAT", "BENNY"):
+    if currentUser == ("NIGHT_C0DE" or "MAT" or "BENNY"):
         printUserNames=[]
         printPasswords = []
         try:

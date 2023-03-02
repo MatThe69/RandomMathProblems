@@ -1,11 +1,11 @@
 # IMPORT ALL MATH FUNCTIONS
-
+from Math_Level_1 import RandomQuestion
 
 def getLevel():
     z = input("Choose 1, 2 or 3.: ")
     match z:
         case "1":
-            print("PLAY MATH 1")
+            RandomQuestion()
         case  "2":
             print("PLAY MATH 2")
         case "3":

@@ -47,7 +47,7 @@ def SignUp():
 def ClearConsoleFcn():
     os.system('cls')
 
-def printUserDataForAdmin():
+def printUserDataForAdminFunction():
     printUserDataForAdmin()
 
 def deleteUserDataForAdmin():
