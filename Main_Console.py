@@ -4,7 +4,8 @@ import time
 
 # Importing other scripts
 from Possible_Functions import cmds, functionToCall, functionsFunction
-from Get_UserInfo import signinorlogin
+from Get_UserInfo import signinorlogin, printUserDataForAdmin, deleteUserData
+from MathMenu import MathGameintro
 
 # Variables
 getCmd = True
@@ -31,7 +32,8 @@ def HelpFunction():
     print(res)
 
 def InitMath():
-     print("INIT MATH")
+    os.system('cls')
+    MathGameintro()
 
 
 def QuitTheConsole():
@@ -44,6 +46,13 @@ def SignUp():
 
 def ClearConsoleFcn():
     os.system('cls')
+
+def printUserDataForAdmin():
+    printUserDataForAdmin()
+
+def deleteUserDataForAdmin():
+    deleteUserData()
+
 #-------------------------------------------FUNCTIONS-------------------------------------------#
 
 

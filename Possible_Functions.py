@@ -1,9 +1,11 @@
 cmds = [
    "login",
    "help",
-   "playmath",
+   "pM",
    "q",
-   "cls"
+   "cls",
+   "PD",
+   "DD"
     ]
 
 functionToCall = [
@@ -11,13 +13,17 @@ functionToCall = [
    "HelpFunction",
    "InitMath",
    "QuitTheConsole",
-   "ClearConsoleFcn"
+   "ClearConsoleFcn",
+   "printUserDataForAdmin",
+   "deleteUserDataForAdmin"
 ]
 
 functionsFunction = [
     "Log In Or Sign up.",
     "Print Help,",
-    "Play Math!",
+    "Play Math Game!",
     "Quit Console.",
-    "Clear the console."
+    "Clear the console.",
+    "Print Users",
+    "Delete All USERS"
 ]
