@@ -4,7 +4,7 @@ import time
 
 # Importing other scripts
 from Possible_Functions import cmds, functionToCall, functionsFunction
-from Get_UserInfo import signinorlogin, printUserDataForAdmin, deleteUserData
+from Get_UserInfo import signinorlogin, printUserDataForAdmin, deleteUserData, SignOutUser
 from MathMenu import MathGameintro
 
 # Variables
@@ -52,6 +52,9 @@ def printUserDataForAdmin():
 
 def deleteUserDataForAdmin():
     deleteUserData()
+
+def SignOutUserToPush():
+    SignOutUser()
 
 #-------------------------------------------FUNCTIONS-------------------------------------------#
 

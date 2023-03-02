@@ -5,7 +5,8 @@ cmds = [
    "q",
    "cls",
    "PD",
-   "DD"
+   "DD",
+   "SO"
     ]
 
 functionToCall = [
@@ -15,7 +16,8 @@ functionToCall = [
    "QuitTheConsole",
    "ClearConsoleFcn",
    "printUserDataForAdmin",
-   "deleteUserDataForAdmin"
+   "deleteUserDataForAdmin",
+   "SignOutUserToPush"
 ]
 
 functionsFunction = [
@@ -25,5 +27,6 @@ functionsFunction = [
     "Quit Console.",
     "Clear the console.",
     "Print Users",
-    "Delete All USERS"
+    "Delete All USERS",
+    "Sign Out."
 ]
